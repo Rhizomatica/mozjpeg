@@ -9,7 +9,6 @@ Build-Depends:
  libpng-dev,
  nasm,
  pkg-config,
- rename,
  zlib1g-dev
 Standards-Version: 4.3.0
 Homepage: https://github.com/mozilla/mozjpeg
