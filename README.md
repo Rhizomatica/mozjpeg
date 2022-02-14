@@ -17,6 +17,16 @@ MozJPEG is meant to be used as a library in graphics programs and image processi
 * Fully compatible with all web browsers.
 * Can be seamlessly integrated into any program that uses the industry-standard libjpeg API. There's no need to write any MozJPEG-specific integration code.
 
+## Rhizomatica's Debian repository
+
+Package can be installed, for example, in a root shell:
+
+    $ wget http://packages.hermes.radio/hermes/rafael.key
+    $ apt-key add rafael.key
+    $ echo deb  http://packages.hermes.radio/hermes/ bullseye main >> /etc/apt/sources.list
+    $ apt-get update
+    $ apt-get install mozjpeg
+
 ## Releases
 
 * [Latest release](https://github.com/mozilla/mozjpeg/releases/latest)
