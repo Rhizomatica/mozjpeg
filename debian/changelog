@@ -1,3 +1,9 @@
+mozjpeg (4.1.5-1) UNRELEASED; urgency=medium
+
+  * Sync to upstream.
+
+ -- Rafael Diniz <rafael@rhizomatica.org>  Mon, 05 Feb 2024 23:45:21 +0000
+
 mozjpeg (4.0.4-1) bullseye; urgency=medium
 
   * Initial release.
