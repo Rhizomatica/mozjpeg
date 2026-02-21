@@ -5,5 +5,8 @@ export DEB_BUILD_MAINT_OPTIONS=hardening=+all
 %:
 	dh $@ --buildsystem=cmake
 
+override_dh_auto_configure:
+	dh_auto_configure -- -DCMAKE_INSTALL_PREFIX=/opt/mozjpeg
+
 override_dh_auto_test:
 	DEB_BUILD_OPTIONS="$(DEB_BUILD_OPTIONS) nocheck" dh_auto_test
